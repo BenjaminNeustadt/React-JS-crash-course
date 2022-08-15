@@ -117,3 +117,29 @@ we use Json server, to make mock API with our own server:
 https://www.npmjs.com/package/json-server
 
 can make post resquests, put requests, as if it were a real backend
+
+You can even check for the restful API on the browser by typing in "http://localhost:5000/tasks" and you will see: 
+```
+[
+  {
+    "id": 1,
+    "text": "Doctors Appointment",
+    "day": "Feb 5th at 2:30pm",
+    "reminder": true
+  },
+  {
+    "id": 2,
+    "text": "Meeting at School",
+    "day": "Feb 3th at 09:30am",
+    "reminder": true
+  },
+  {
+    "id": 3,
+    "text": "Swimming lesson",
+    "day": "Feb 7th at 12:30pm",
+    "reminder": false
+  }
+]
+```
+
+
