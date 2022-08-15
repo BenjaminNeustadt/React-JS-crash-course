@@ -79,3 +79,41 @@ Each component has its peice of state, component level state , not App level sta
 
 Might be a little initimidating at first, but:
 To do stuff like this in vanilla javasciprt is much more messy and unorganised, and difficult
+
+build folder is where you push to production.
+
+
+
+### When ready to deploy: 
+
+- stop the server
+`npm run build`
+
+creates static assets in build folder
+
+then to try locally, we can install the npm serve package globally
+
+To install: 
+
+`sudo npm -i -g serve`
+
+insert password
+
+can now:
+
+`serve -s build -p 8000' the build folder on port 8000
+
+now local host 3000 isnt working, its on 8000
+
+Could delete all the rest of the folders and this would still work, because this is our production build.
+
+we have production build and dev environment now.
+#### Now we keep going to build mock backend
+
+we use Json server, to make mock API with our own server:
+
+1:21 minutes into the video
+
+https://www.npmjs.com/package/json-server
+
+can make post resquests, put requests, as if it were a real backend
