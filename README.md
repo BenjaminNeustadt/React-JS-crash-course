@@ -76,3 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 You can turn this into a full stack application by having a backend, some kind of API that you can make requests to, and fetch data from (think about having a local database for this, either MONGODB NOSQL), which we might do at the end with Json server.
 
 Each component has its peice of state, component level state , not App level state
+
+Might be a little initimidating at first, but:
+To do stuff like this in vanilla javasciprt is much more messy and unorganised, and difficult
