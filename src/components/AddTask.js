@@ -12,12 +12,14 @@ const AddTask = ({ onAdd }) => {
       alert('Please add a task')
       return
     }
+
     onAdd({ text, day, reminder })
 
     setText('')
     setDay('')
     setReminder(false)
   }
+  
   return (
     <form className="add-form" onSubmit={onSubmit}>
       <div className='form-control'>
