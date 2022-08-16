@@ -20,6 +20,10 @@ a {
   color:cadetblue;
 }
 
+.input-text {
+  font-family:'Courier New', Courier, monospace;
+}
+
 .container {
   max-width: 500px;
   margin: 30px auto;

@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "text": "RDV Mme Simon",
-      "day": "14:30",
-      "reminder": true,
-      "id": 1
-    },
-    {
       "text": "RDV ophtalmo - Ledru Rolin",
       "day": "17:30",
       "reminder": true,
@@ -15,14 +9,20 @@
     {
       "text": "RDV Lunettes - Comme des Lunettes",
       "day": "18:30",
-      "reminder": true,
+      "reminder": false,
       "id": 3
     },
     {
       "text": "RDV Yotam",
       "day": "20:00",
-      "reminder": true,
+      "reminder": false,
       "id": 4
+    },
+    {
+      "text": "Go to Belleville",
+      "day": "18:45",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
