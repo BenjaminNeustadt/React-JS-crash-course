@@ -143,6 +143,7 @@ You can even check for the restful API on the browser by typing in "http://local
 ```
 
 
+react-router-dom
 
-
-
+do sudo before this
+careful when doing this as the versions need to be the same
