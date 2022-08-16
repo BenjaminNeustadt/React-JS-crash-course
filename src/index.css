@@ -4,10 +4,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color:#f4f4f4
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family:'Courier New', Courier, monospace;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  font-size: 14px;
+  color:cadetblue;
 }
 
 .container {
@@ -15,7 +25,7 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 5px solid grey;
   padding: 30px;
   border-radius: 5px;
 }
@@ -62,7 +72,7 @@ body {
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid chocolate;
 }
 
 .task h3 {

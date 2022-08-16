@@ -1,22 +1,28 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Doctors Appointment",
-      "day": "Feb 5th at 2:30pm",
-      "reminder": false
+      "text": "RDV Mme Simon",
+      "day": "14:30",
+      "reminder": true,
+      "id": 1
     },
     {
-      "text": "Take Test",
-      "day": "Friday",
+      "text": "RDV ophtalmo - Ledru Rolin",
+      "day": "17:30",
       "reminder": true,
       "id": 2
     },
     {
-      "text": "First one?",
-      "day": "Anyday",
-      "reminder": false,
+      "text": "RDV Lunettes - Comme des Lunettes",
+      "day": "18:30",
+      "reminder": true,
       "id": 3
+    },
+    {
+      "text": "RDV Yotam",
+      "day": "20:00",
+      "reminder": true,
+      "id": 4
     }
   ]
 }
