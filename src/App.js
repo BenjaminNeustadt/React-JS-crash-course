@@ -16,7 +16,7 @@ const App = () => {
     getTasks()
   }, [])
 
-  // Fetch Tasks 
+  // Fetch Tasks
   const fetchTasks = async () => {
     const res = await fetch('http://localhost:5000/tasks')
     const data = await res.json()
@@ -53,7 +53,7 @@ const App = () => {
 
   // Delete Task
   const deleteTask = async (id) => {
-    await fetch(`http://localhost:5000/tasks/${id}`, { 
+    await fetch(`http://localhost:5000/tasks/${id}`, {
       method: 'DELETE'
     })
 
@@ -76,7 +76,7 @@ const App = () => {
     const data = await res.json()
 
     setTasks(
-      tasks.map((task) => 
+      tasks.map((task) =>
         task.id === id ? {...task, reminder:
         data.reminder } : task
       )
@@ -85,7 +85,7 @@ const App = () => {
 // What we render to the page
   return (
     <div className="container">
-     <Header 
+     <Header
       onAdd={() => setShowAddTask
      (!showAddTask)} showAdd={showAddTask}
      />
@@ -98,7 +98,7 @@ const App = () => {
       'No Tasks To Show'
      )}
      <Footer />
-    
+
     </div>
   );
 }
